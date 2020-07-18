@@ -1,0 +1,28 @@
+:root {
+  --main-text: #333;
+  --main-bg: #fff;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-text: #ddd;
+    --main-bg: #000;
+  }
+}
+
+body {
+  color: var(--main-text);
+  background-color: var(--main-bg);
+  transition: .5s;
+}
+
+
+
+.light-theme {
+  background: #fff;
+  color: #333;
+}
+.dark-theme {
+  background: #000;
+  color: #ddd
+}
+
